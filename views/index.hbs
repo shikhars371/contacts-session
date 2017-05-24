@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+        <script type="text/javascript" src="/javascripts/frontendtwo.js"></script>
+    </head>
+<body>
+<h1>{{title}}</h1>
+<p>Welcome to {{title}}</p>
+
+<input type="text" name="Name" id="name" placeholder="Enter your name"></input>
+<input type="email" name="Email" id="email" placeholder="Enter your email"></input>
+<input type="number" name="Name" id="number" placeholder="Enter your number"></input>
+
+
+
+<button type="submit" name="submit" onclick="submitformdata()">Submit</button>
+
+<button type="submit" name="logout" onclick="logout()">Logout</button>
+
+
+<table style="width:100%" id="mongotable" >
+  <tr>
+    <th>Name</th>
+    <th>Email</th> 
+    <th>Number1</th>
+  </tr>
+  
+</table>
+</body>
+</html>
